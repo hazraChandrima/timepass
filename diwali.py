@@ -1,4 +1,4 @@
-# Run this python script in your terminal to see  : python diwali.py
+# Run this python script in your terminal to see ASCII animations : python diwali.py
 # NOTE: KEEP THE FONT SIZE IN YOUR TERMINAL VERYY SMALL
 # Send this to someone who's as boring as I am ;)
 # I don't even think anyone's gonna read this
