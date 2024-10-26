@@ -1,3 +1,6 @@
+# Run this python script in your terminal : python diwali.py
+# Send this to someone who's as boring as I am ;)
+
 import time
 import os
 
