@@ -31,9 +31,7 @@ frames = [
                                  #:  *  -@=   *@@-                                        
                                  -+  *    *%-  %@@                                         
                                   *. =.    .##.:@@=                                       
-                                   +. +      -%-%@-  {RESET}                                  
-                                                                                                                                                                                                                                                                                                                              
-    """,
+                                   +. +      -%-%@-  {RESET}""",
     f"""   
     {ORANGE}                                         
                                            ::                                             
@@ -53,13 +51,11 @@ frames = [
                                         :@@#   =@=  *  .%                                 
                                         @@%  :%*.   *  ==                                 
                                        -@@-.##:     +  #                                  
-                                       :@@:@-      = .+    {RESET}                               
-                                                                                             
-    """
+                                       :@@:@-      = .+    {RESET}"""
 ]
 
-remaining = [f"""
-                        .:-=++*##%%%@=.-      -*@@@@@@%%%##*++=-:.                        
+remaining = f"""                        
+                          .:-=++*##%%%@=.-      -*@@@@@@%%%##*++=-:.                        
                  .-+#%@@%#*+=--::..    .:.   .:-       ..::--=+*#%@@%#+-.                 
              .=#@%*=-.                      ::                      .-=*%@#=.             
             *@#-.                         =%@@%=.                         -#@*            
@@ -93,7 +89,7 @@ remaining = [f"""
             @+    %+    ##     @=     *         :@            @-             :@--#@%      =@       #@*   *@=      @+    %#     @*===     @+           
             =:    -:    --     =.     :         .=            =.             .====-       :=       :=.   :=.      =:     =.    =====.    =:                                                                                                                                                     
       {RESET}
-"""]
+"""
 
 clear_screen = "cls" if os.name == "nt" else "clear"
 
@@ -101,7 +97,7 @@ try:
     while True:
         for i in frames:
             os.system(clear_screen)
-            print(i)
+            print(i+remaining)
             time.sleep(0.1)
 except KeyboardInterrupt:
     os.system(clear_screen)
