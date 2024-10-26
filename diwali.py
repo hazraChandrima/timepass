@@ -1,5 +1,7 @@
 # Run this python script in your terminal : python diwali.py
+# NOTE: KEEP THE FONT SIZE IN YOUR TERMINAL VERYY SMALL
 # Send this to someone who's as boring as I am ;)
+# I don't even think anyone's gonna read this
 
 import time
 import os
