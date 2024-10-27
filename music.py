@@ -1,5 +1,8 @@
+# This is a python script to automate music listening 
 # Ensure that you have VLC media player and psutil installed : pip install psutil
+# Then run : python music.py
 # Send this to someone who loves classical music like I do
+
 # Thanks to Ayush Jayaswal for the idea and resource!
 
 
