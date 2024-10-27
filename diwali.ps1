@@ -1,4 +1,7 @@
 # this one as a powershell script
+# Run this powershell script in your terminal:  diwali.ps1
+# NOTE: KEEP THE FONT SIZE IN YOUR TERMINAL VERYY SMALL
+# Send this to someone who's as boring as I am ;)
 
 $YELLOW = "Yellow"
 $ORANGE = "DarkYellow" 
